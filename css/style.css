@@ -165,3 +165,23 @@ footer {
   background-color: #4a4a4a;
   color: #d32615;
 }
+
+/* MORE ACTIONs */
+
+.more-action {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  color: #fff;
+  font-size: 0.8rem;
+  gap: 0.3rem;
+  width: 300px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.change {
+  background-color: #4a4a4a;
+  padding: 0.3rem 0.4rem;
+  border-radius: 5px;
+}
