@@ -39,15 +39,18 @@ a {
 
 main {
   /* debug */
-  background-color: aquamarine;
-  height: calc(100% - 80px);
+  /* background-color: aquamarine; */
+  /* height: calc(100% - 80px); */
   width: 90%;
 }
 
 .row {
   width: 100%;
-  align-items: flex-start;
-  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  padding: 1rem 0;
 }
 
 .card {
@@ -75,5 +78,4 @@ footer {
   /* debug */
   background-color: lightseagreen;
   height: 60px;
-  margin-top: 20px;
 }
