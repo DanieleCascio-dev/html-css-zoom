@@ -38,26 +38,25 @@ a {
 }
 
 main {
-  /* debug */
-  /* background-color: aquamarine; */
-  /* height: calc(100% - 80px); */
+  height: calc(100% - 80px);
   width: 90%;
 }
 
 .row {
+  max-height: 100%;
   width: 100%;
   align-items: center;
   justify-content: center;
   gap: 0.3rem;
   flex-wrap: wrap;
   padding: 1rem 0;
+
+  overflow-y: auto;
 }
 
 .card {
   width: calc(95% / 7);
-  /* debug */
-  /*  height: 100px; */
-  background-color: lightcoral;
+
   position: relative;
 }
 
@@ -78,4 +77,27 @@ footer {
   /* debug */
   background-color: lightseagreen;
   height: 60px;
+  /* position propreties */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* Flex properties */
+  justify-content: space-between;
+}
+
+.options {
+  width: 20%;
+  /* debug */
+  background-color: chartreuse;
+}
+
+.interactions {
+  background-color: chartreuse;
+  width: 40%;
+}
+
+.end {
+  width: 20%;
+  background-color: chartreuse;
 }
