@@ -153,5 +153,15 @@ footer {
 
 .end {
   width: 20%;
-  background-color: chartreuse;
+
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.end p {
+  line-height: 60px;
+  padding: 0 1rem;
+  font-size: 0.8rem;
+  background-color: #4a4a4a;
+  color: #d32615;
 }
