@@ -105,6 +105,7 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 0.2rem;
+  /* width: 100%; */
 }
 
 .option p {
@@ -117,9 +118,37 @@ footer {
   margin-left: 0.8rem;
 }
 
+/* Intractions */
 .interactions {
-  background-color: chartreuse;
-  width: 40%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.interact {
+  height: 100%;
+  width: calc(95% / 9);
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  text-align: center;
+}
+
+.interact .fa-solid {
+  font-size: 1.2rem;
+}
+
+.interact p {
+  font-size: 0.6rem;
+}
+
+#share {
+  color: #4bc800;
+}
+
+#fa-angle-up-alone {
+  font-size: 0.5rem;
 }
 
 .end {
