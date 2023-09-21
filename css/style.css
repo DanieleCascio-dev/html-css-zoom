@@ -22,6 +22,10 @@ a {
   display: flex;
 }
 
+.column {
+  flex-direction: column;
+}
+
 /* WRAPPER */
 
 .wrapper {
@@ -75,8 +79,9 @@ main {
 
 footer {
   /* debug */
-  background-color: lightseagreen;
+  background-color: #222222;
   height: 60px;
+  color: #fff;
   /* position propreties */
   position: fixed;
   bottom: 0;
@@ -84,12 +89,32 @@ footer {
   width: 100%;
   /* Flex properties */
   justify-content: space-between;
+  align-items: center;
 }
+
+/* Options */
 
 .options {
   width: 20%;
-  /* debug */
-  background-color: chartreuse;
+
+  justify-content: flex-start;
+}
+
+.option {
+  margin-left: 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.option p {
+  font-size: 0.6rem;
+  align-self: flex-start;
+}
+
+.option .fa-angle-up {
+  font-size: 0.5rem;
+  margin-left: 0.8rem;
 }
 
 .interactions {
