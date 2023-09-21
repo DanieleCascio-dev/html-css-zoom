@@ -5,3 +5,48 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* COMMON */
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+/* WRAPPER */
+
+.wrapper {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+/* MAIN */
+
+.container {
+  margin: 0 auto;
+}
+
+main {
+  /* debug */
+  background-color: aquamarine;
+  height: calc(100% - 80px);
+  width: 90%;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: lightseagreen;
+  height: 60px;
+  margin-top: 20px;
+}
