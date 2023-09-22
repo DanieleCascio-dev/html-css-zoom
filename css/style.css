@@ -96,8 +96,8 @@ footer {
 
 .options {
   width: 20%;
-
   justify-content: flex-start;
+  flex-grow: 1;
 }
 
 .option {
@@ -109,7 +109,7 @@ footer {
 }
 
 .option p {
-  font-size: 0.6rem;
+  font-size: 1rem;
   align-self: flex-start;
 }
 
@@ -121,14 +121,15 @@ footer {
 /* Intractions */
 .interactions {
   width: 50%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
 }
 
 .interact {
   height: 100%;
-  width: calc(95% / 9);
+  /* width: calc(100% / 10); */
+  flex-grow: 1;
   align-items: center;
   justify-content: center;
   gap: 0.2rem;
@@ -136,11 +137,11 @@ footer {
 }
 
 .interact .fa-solid {
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .interact p {
-  font-size: 0.6rem;
+  font-size: 16px;
 }
 
 #share {
@@ -148,12 +149,11 @@ footer {
 }
 
 #fa-angle-up-alone {
-  font-size: 0.5rem;
+  font-size: 8px;
 }
 
 .end {
   width: 20%;
-
   justify-content: flex-end;
   height: 100%;
 }
@@ -182,6 +182,8 @@ footer {
 
 .change {
   background-color: #4a4a4a;
+  color: white;
+  border: 1px solid #4a4a4a;
   padding: 0.3rem 0.4rem;
   border-radius: 5px;
 }
